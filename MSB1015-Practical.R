@@ -237,7 +237,8 @@ microbenchmark( "exp" = {
 
 # In this exercise, we will work with applying an image processing function on a large number of blood cell images (simulating what you would do in a similar research project) and we will compare this process with and without parallel computing.
 # The dataset was originally obtained from Kaggle (https://www.kaggle.com/datasets/paultimothymooney/blood-cells/). However, the images were copied and multiplied a couple of times to increase their number in order the observe reasonable differences between sequential and parallel approaches.
-# Therefore, download the image dataset from the following URL: https://drive.google.com/file/d/1a5EPJPSrrpaKTu6tvIY37sdtqoPdTMNd/view?usp=sharing
+# Therefore, download the image dataset from the following URL:
+# https://filesender.surf.nl/?s=download&token=51a98142-292e-42b8-b76a-9f019a841484 (until 2026-10-22)
 # Unzip the folder into the data/ folder and make sure that you have the images directly under data/original_images/
 
 library(doParallel)
