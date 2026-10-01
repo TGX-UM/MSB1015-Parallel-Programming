@@ -329,7 +329,7 @@ for(n in n_cores){
   
   end_time <- Sys.time()
   
-  time_taken <- round(end_time - start_time, digits = 2)
+  time_taken <- round(difftime(end_time, start_time, units="secs"), digits = 2)
   
   print(paste0("Time taken for run ",n,": ",time_taken," seconds"))
   
