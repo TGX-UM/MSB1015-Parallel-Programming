@@ -19,4 +19,4 @@ In the downloaded/forked folder, there are two options:
 
 ## Download files
 
-* [original_images]()
+* See R script.
